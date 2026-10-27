@@ -2,12 +2,19 @@
 tags:
   - manuel
   - changelog
-updated: 2026-10-26
+updated: 2026-10-27
 ---
 
 # Manuel Changelog
 
 Part of [[Manuel Home]]. Everything Manuel's Claude changed in the game, **newest on top**. Every change was play-tested in Studio (0 errors) and has a line in PART 1 of the team notebook. Undo any script change: right-click the script > View Script History.
+
+## 2026-10-27
+
+### Werewolf switched off
+- **Manuel:** "remove the werewolf".
+- Sebastian's werewolf (`ServerScriptService.Werewolf` + `ReplicatedStorage.Shared.Werewolf`) moved to `ServerStorage > Backups > Werewolf_Sebastian` (not deleted, scripts there don't run). Note for Sebastian in the team notebook.
+- **Test:** play test, no werewolf. 0 errors.
 
 ## 2026-10-26
 
